@@ -1,0 +1,9 @@
+{
+    "name": "first-api-rest",
+    "version": "16.9.1",
+    "dependencies": {
+        "express": "^4.7.1",
+        "method-override": "^2.1.2",
+        "body-parser": "^1.5.1"
+    }
+}
