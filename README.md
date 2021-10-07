@@ -1,6 +1,6 @@
 # First API-REST
 ## Notas del Hito 2
-En los documentos que he subido me dedico a hacer literalmente lo que se hace en el tutorial de mongoDB adaptándolo a lo que solicita EsLint. He metido un par de datos en una base de Mongo y parecen funcionar. He probado a hacer `get`, `post`, y `delete`.
+En los documentos que he subido me dedico a **hacer literalmente lo que se hace en el tutorial** de mongoDB adaptándolo a lo que solicita _EsLint_. He metido un par de datos en una base de Mongo y parecen funcionar. He probado a hacer `get`, `post`, y `delete`.
 
 ###Dudas
 Hay varias cosas de la terminología que no entiendo:
@@ -11,7 +11,8 @@ También hay piezas de código que puedo intuir que hacen pero no las entiendo b
 1. Qué hace esta función? (entiendo que es para evitar que se quede esperando en el puerto mucho tiempo, o evitar un bucle infinito):
 ```
     module.exports.get = (callback, limit) => {
-     Contact.find(callback).limit(limit);
+      Contact.find(callback).limit(limit);
+    };
 ```  
 2. Cuál es la función exactamente de BodyParser?
 3. Cómo encuentras la versión no deprecada de alguna función u objeto o lo que sea)
