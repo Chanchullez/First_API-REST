@@ -14,7 +14,7 @@ También hay piezas de código que puedo intuir que hacen pero no las entiendo b
       Contact.find(callback).limit(limit);
     };
 ```  
-2. Cuál es la función exactamente de BodyParser?
+2. Cuál es la función exactamente de `bodyParser`?
 3. Cómo encuentras la versión no deprecada de alguna función u objeto o lo que sea)
 4. Qué pasa si instalamos varias veces la misma dependencia sin querer? Se copia dos veces o se sobreescribe? (porque en la consola se puede leer que audita archivos, entiendo que lo hace con los que ya existen).
-5. Al subir el archivo a GitHub la consola me dice qu está quitando los LF y sustituyendolos por CRLF, cómo puedo hacer para evitar que modifique cosas relacionadas con EsLint?
+5. Al subir el archivo a GitHub la consola me dice qu está quitando los LF y sustituyendolos por CRLF, cómo puedo hacer para evitar que modifique cosas relacionadas con _EsLint_?
