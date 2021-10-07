@@ -4,7 +4,7 @@ const contactController = require('./contactsController');
 router.get('/', (req, res) => {
   res.json({
     status: 'API Its Working',
-    message: 'Welcome to RESTHub crafted with love!',
+    message: 'Welcome to First - API REST!',
   });
 });
 
@@ -17,5 +17,4 @@ router.route('/contacts/:contact_id')
   .put(contactController.update)
   .delete(contactController.delete);
 
-// Export API routes
 module.exports = router;

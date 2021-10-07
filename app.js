@@ -9,15 +9,16 @@ const app = express();
 // Setup server port
 const port = process.env.PORT || 8080;
 // Send message for default URL
-app.get('/', (req, res) => res.send('HEYYYY'));
-// Launch app to listen to specified port
-app.listen(port, () => { console.log(`Running RestHub on port ${port}`); });
+app.get('/', (req, res) => res.send('Welcome to First REST-API'));
 app.use(bodyParser.urlencoded({
   extended: true,
 }));
 app.use(bodyParser.json());
+app.listen(port, () => {
+  console.log(`Running the API on port: ${port}`);
+});
 
-mongoose.connect('mongodb://localhost/resthub');
-mongoose.connect('mongodb://localhost/resthub', { useNewUrlParser: true });
+mongoose.connect('mongodb://localhost/27017');
+mongoose.connect('mongodb://localhost/27017', { useNewUrlParser: true });
 
 app.use('/api', apiRoutes);
