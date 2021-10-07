@@ -9,8 +9,10 @@ Hay varias cosas de la terminología que no entiendo:
 
 También hay piezas de código que puedo intuir que hacen pero no las entiendo bien:
 1. Qué hace esta función? (entiendo que es para evitar que se quede esperando en el puerto mucho tiempo, o evitar un bucle infinito):
+
     module.exports.get = (callback, limit) => {
-      Contact.find(callback).limit(limit);
+     Contact.find(callback).limit(limit);
+  
 2. Cuál es la función exactamente de BodyParser?
 3. Cómo encuentras la versión no deprecada de alguna función u objeto o lo que sea)
 4. Qué pasa si instalamos varias veces la misma dependencia sin querer? Se copia dos veces o se sobreescribe? (porque en la consola se puede leer que audita archivos, entiendo que lo hace con los que ya existen).
