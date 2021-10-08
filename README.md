@@ -2,7 +2,7 @@
 ## Notas del Hito 2
 En los documentos que he subido me dedico a **hacer literalmente lo que se hace en el tutorial** de mongoDB adaptándolo a lo que solicita _EsLint_. He metido un par de datos en una base de Mongo y parecen funcionar. He probado a hacer `get`, `post`, y `delete`.
 
-###Dudas
+### Dudas
 Hay varias cosas de la terminología que no entiendo:
 1. Lo más fundamental que hacen `res` y `req`. Por lo que he podido entender, uno sirve para solicitar una serie de cosas al body y el otro para imprimirlas, creo.
 2. Dónde introducir los códigos de error, entiendo que dentro de los controladores cuando estos devuelven un error pero cómo sabemos que error va a dar.
@@ -18,3 +18,5 @@ También hay piezas de código que puedo intuir que hacen pero no las entiendo b
 3. Cómo encuentras la versión no deprecada de alguna función u objeto o lo que sea)
 4. Qué pasa si instalamos varias veces la misma dependencia sin querer? Se copia dos veces o se sobreescribe? (porque en la consola se puede leer que audita archivos, entiendo que lo hace con los que ya existen).
 5. Al subir el archivo a GitHub la consola me dice qu está quitando los LF y sustituyendolos por CRLF, cómo puedo hacer para evitar que modifique cosas relacionadas con _EsLint_?
+6. Cómo poder conectarse a moongose desde distintos ordenadores?
+7. Cómo poder acceder a `mongod` desde la consola ya que no aparece al solicitarlo.
